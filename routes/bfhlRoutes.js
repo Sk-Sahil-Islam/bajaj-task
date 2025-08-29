@@ -1,4 +1,3 @@
-// routes/bfhlRoutes.js
 import express from "express";
 import { processData } from "../controllers/bfhlController.js";
 

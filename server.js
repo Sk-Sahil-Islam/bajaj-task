@@ -7,17 +7,15 @@ import { swaggerSpec, swaggerUi } from "./swagger/swagger.js";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
-// Routes
 app.use("/", bfhlRoutes);
 
-// Swagger Docs
+//swagger docs
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-// Health check
+//default route for health check
 app.get("/", (req, res) => {
   res.send("BFHL API is running...");
 });

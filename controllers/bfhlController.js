@@ -1,6 +1,3 @@
-// controllers/bfhlController.js
-
-// Helper: alternate caps reverse
 function alternateCapsReverse(str) {
   let reversed = str.split("").reverse().join("");
   return reversed
