@@ -1,0 +1,26 @@
+{
+  "name": "bjaj",
+  "version": "1.0.0",
+  "description": "A assignment given you bajaj",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sk-Sahil-Islam/bajaj-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sk-Sahil-Islam/bajaj-task/issues"
+  },
+  "homepage": "https://github.com/Sk-Sahil-Islam/bajaj-task#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
